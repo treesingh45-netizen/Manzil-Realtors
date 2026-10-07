@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="100%" height="100%">
+  <defs>
+    <!-- Rich metallic champagne gold gradient matching the uploaded logo -->
+    <linearGradient id="favGoldMetallic" x1="20%" y1="0%" x2="80%" y2="100%">
+      <stop offset="0%" stopColor="#EED596"/>
+      <stop offset="25%" stopColor="#F7E7BE"/>
+      <stop offset="55%" stopColor="#C99F4A"/>
+      <stop offset="85%" stopColor="#A87F2E"/>
+      <stop offset="100%" stopColor="#875E19"/>
+    </linearGradient>
+
+    <linearGradient id="favGoldVertical" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stopColor="#FBF0D2"/>
+      <stop offset="35%" stopColor="#DEB965"/>
+      <stop offset="70%" stopColor="#AF842F"/>
+      <stop offset="100%" stopColor="#7E5616"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Luxury dark square badge background for clean contrast in all browser tabs -->
+  <rect width="512" height="512" rx="72" fill="#151412"/>
+  <rect width="504" height="504" x="4" y="4" rx="68" stroke="url(#favGoldMetallic)" stroke-width="3" stroke-opacity="0.3"/>
+
+  <!-- Centered Skyline Calligraphy Logo Group (منازل - MANZIL) -->
+  <g transform="translate(42, 42) scale(0.57)">
+    
+    <!-- LAYER 1: WHITE OUTER CONTOUR BORDER -->
+    <g stroke="#FFFFFF" stroke-width="26" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <!-- Left Lower Foot & Stepped Building -->
+      <path d="M 40 480 L 255 480 L 255 375 L 210 375 L 180 345 L 180 435 L 40 435 Z"/>
+      <!-- Left Stepped Tower Ridge -->
+      <path d="M 180 345 L 210 345 L 210 240 L 255 240 L 255 480"/>
+      <!-- Tall Central Skyscraper (Alif) -->
+      <path d="M 285 520 L 285 65 C 285 50 295 40 310 40 L 460 40 C 475 40 485 50 485 65 L 485 520 Z"/>
+      <!-- Central Gabled Arch / Pavilion (Noon) -->
+      <path d="M 345 520 L 345 220 L 440 145 L 535 220 L 535 520 Z"/>
+      <!-- Central Vertical Spire Tab -->
+      <path d="M 440 145 L 440 230"/>
+      <!-- Bottom Tail (Zay) -->
+      <path d="M 440 340 L 440 520 L 405 580 C 395 595 375 605 355 595 L 320 575 C 300 560 305 535 325 525 L 375 495 L 375 340"/>
+      <!-- Right Base Loop & Window (Meem) -->
+      <path d="M 495 520 L 690 520 C 705 520 715 510 715 495 L 715 435 C 715 420 705 410 690 410 L 535 410 L 535 320 L 600 320 L 600 520"/>
+      <!-- Square Cutout Window in Meem -->
+      <rect x="635" y="445" width="40" height="40" stroke="#FFFFFF" stroke-width="22" fill="none"/>
+      <!-- Dots with White Border -->
+      <circle cx="440" cy="285" r="30" fill="#FFFFFF"/>
+      <circle cx="575" cy="365" r="28" fill="#FFFFFF"/>
+    </g>
+
+    <!-- LAYER 2: RICH METALLIC GOLD FOREGROUND -->
+    <g stroke="url(#favGoldMetallic)" stroke-width="16" stroke-linecap="round" stroke-linejoin="round" fill="none">
+      <!-- Left Lower Foot & Stepped Building -->
+      <path d="M 40 480 L 255 480 L 255 375 L 210 375 L 180 345 L 180 435 L 40 435 Z"/>
+      <!-- Left Stepped Tower Ridge -->
+      <path d="M 180 345 L 210 345 L 210 240 L 255 240 L 255 480"/>
+      <!-- Tall Central Skyscraper (Alif) -->
+      <path d="M 285 520 L 285 65 C 285 50 295 40 310 40 L 460 40 C 475 40 485 50 485 65 L 485 520 Z" stroke="url(#favGoldVertical)"/>
+      <!-- Central Gabled Arch / Pavilion -->
+      <path d="M 345 520 L 345 220 L 440 145 L 535 220 L 535 520 Z"/>
+      <!-- Central Vertical Spire Tab -->
+      <path d="M 440 145 L 440 230" stroke="url(#favGoldVertical)" stroke-width="17"/>
+      <!-- Bottom Tail (Zay) -->
+      <path d="M 440 340 L 440 520 L 405 580 C 395 595 375 605 355 595 L 320 575 C 300 560 305 535 325 525 L 375 495 L 375 340"/>
+      <!-- Right Base Loop & Window (Meem) -->
+      <path d="M 495 520 L 690 520 C 705 520 715 510 715 495 L 715 435 C 715 420 705 410 690 410 L 535 410 L 535 320 L 600 320 L 600 520"/>
+      <!-- Square Cutout Window in Meem -->
+      <rect x="635" y="445" width="40" height="40" stroke="url(#favGoldMetallic)" stroke-width="12" fill="#151412"/>
+      <!-- Solid Metallic Gold Dots -->
+      <circle cx="440" cy="285" r="21" fill="url(#favGoldMetallic)" stroke="none"/>
+      <circle cx="575" cy="365" r="19" fill="url(#favGoldMetallic)" stroke="none"/>
+    </g>
+  </g>
+</svg>

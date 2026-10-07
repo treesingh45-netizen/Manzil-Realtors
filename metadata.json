@@ -1,0 +1,7 @@
+{
+  "name": "Manzil Realtors & Builders",
+  "description": "Premium real estate agency in Karachi specializing in residential and commercial properties, investment advisory, and private viewings.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
